@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ProcessWatcher.View.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ProcessWatcher.Resource.App" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resource\App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.Model.Agent">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAASgAAIBCAAAAgAEAAAAAAAAABAAAARIAAABIIAAAA=</HashCode>
+      <FileName>Model\Agent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProcessWatcher.Model.Client">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIACAJgABCAAAAFAAAAARAAAIABAAAIQKAACAIDAAgA=</HashCode>
+      <FileName>Model\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.Model.BoolEventArgs" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\BoolEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.Commands.Command" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.AgentVm">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iEQAoIIAACAEAQAIEAAABgAAiAgAACEBAABAEAEEQAA=</HashCode>
+      <FileName>ViewModel\AgentVm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="agent" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Processes" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.AgentListVm">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIIAAAACAAAAAAMAAAAiiAgAASgCAAAAAEUAAAA=</HashCode>
+      <FileName>ViewModel\AgentListVm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Agents" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.ProcessModulesVMEventArgs" Collapsed="true">
+    <Position X="14.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProcessModulesVMEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.ProcessModuleContainerVm">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAACAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProcessModuleContainerVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.ProcessContainerVMEventArgs" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProcessContainerVMEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.ProcessContainerVMBoolEventArgs" Collapsed="true">
+    <Position X="14.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProcessContainerVMBoolEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.ProcessContainerVM">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACIIAAACAAAEAMAAAAAAQQAAIAAAAAAgBAAEAAAAA=</HashCode>
+      <FileName>ViewModel\ProcessContainerVM.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Modules" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ProcessWatcher.ViewModel.AgentVmEventArgs" Collapsed="true">
+    <Position X="16.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\AgentVmEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
